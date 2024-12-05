@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#background {
+  position: relative;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+
+.line {
+  width: 10px;
+  min-width: 10px;
+  height: 100vh;
+  margin-right: 10px;
+  background-color: red;
+  opacity: 0.5;
+}
+
+#horizontal-lines {
+  position: absolute;
+}
+
+.horizontal-line {
+  width: 100vw;
+  height: 10px;
+  margin-bottom: 10px;
+  background-color: red;
+  opacity: 0.5;
+}
